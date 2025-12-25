@@ -39,6 +39,15 @@
             text-shadow: 0 6px 18px rgba(11,18,32,0.18);
         }
 
+        .name-foot {
+            background: linear-gradient(90deg, #fcc729 0%, #faca3b 60%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 500;
+            text-shadow: 0 6px 18px rgba(11,18,32,0.18);
+        }
+
         /* Softer hero color variants */
         .hero-greeting { color: rgba(255,255,255,0.98); }
         .hero-school { color: rgba(255,255,255,0.95); font-weight:400; }
@@ -161,6 +170,8 @@
 
     </style>
 </head>
+
+
 <body class="bg-gray-50">
     <!-- Navbar -->
     <nav class="fixed w-full bg-white/75 backdrop-blur-md shadow-sm z-50">
@@ -205,11 +216,7 @@
                         <h1 class="text-4xl md:text-5xl font-bold mb-6">Saya,  <span class="name-highlight">Muhammad Fatih Nur Rosyid</span></h1>
                     <p class="text-lg md:text-xl mb-2 hero-school">Siswa Mekatronika <a href="https://www.smtijogja.sch.id" target="_blank" rel="noopener noreferrer" class="school-link">SMK-SMTI YOGYAKARTA</a>.</p>
                     <p class="text-lg mb-8 hero-desc">Website ini menampilkan proyek dan perkembangan saya di bidang teknologi.</p>
-                    <div class="flex flex-wrap gap-4">
-                        <a href="#contact" class="btn-primary">Hubungi Saya</a>
-                        <a href="#portfolio" class="btn-secondary">Lihat Portfolio</a>
-                    </div>
-                </div>
+                   </div>
 
                 <div class="hidden md:block">
                     <div class="float-animation my-auto">
@@ -227,33 +234,32 @@
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold gradient-text mb-4 pb-1">Tentang Saya</h2>
-                <p class="text-gray-600">Teknologi Manufaktur & Rekayasa</p>
+                <p class="text-gray-600"></p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h3 class="text-3xl font-bold mb-6">Full Stack Developer & Lulusan Sistem Informasi</h3>
                     <p class="text-gray-700 mb-4 leading-relaxed">
-                        Saya merupakan siswa dengan peng. 
-                        Fokus utama saya adalah menciptakan solusi teknologi yang efisien dan user-friendly.
+                        Saya merupakan siswa di SMK SMTI Yogyakarta dengan konsentrasi Keahlian Teknik Mekatronika yang memiliki semangat tinggi dalam belajar dan mengembangkan diri.
+                        Ketertarikan saya berfokus pada bidang Mekanika serta aplikasi teknologi yang terintegrasi dalam dunia otomasi.
                     </p>
                     <p class="text-gray-700 mb-6 leading-relaxed">
-                        Dengan latar belakang Sistem Teknik Mekatronika, saya memiliki pemahaman mendasar tentang sistem teknologi 
+                        Dengan latar belakang Teknik Mekatronika, saya memiliki pemahaman mendasar tentang sistem teknologi 
                         industri yang diimplementasikan untuk memecahkan masalah di bidang manufaktur.
                     </p>
                     
-                    <h4 class="text-2xl font-bold mb-4 gradient-text">Tech Stack & Keahlian</h4>
+                    <h4 class="text-2xl font-bold mb-4 gradient-text">Minat & Keahlian</h4>
                     <div class="flex flex-wrap gap-3 mb-6">
-                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">CAD (AutoCAD)</span>
-                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">SolidWorks</span>
-                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">PLC Programming</span>
-                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">CAM</span>
-                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">Schneider / Modicon</span>
-                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">Pneumatics</span>
+                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">CAD/CAM</span>
                         <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">Hydraulics</span>
+                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">Pneumatics</span>
+                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">Milling</span>
+                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">PLC</span>
                         <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">Electrical</span>
                         <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">Welding</span>
-                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">SCADA / OPC</span>
+                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">Lathe</span>
+                        <span class="skill-tag px-4 py-2 rounded-full text-sm font-medium">Maintenance</span>
                     </div>
                 </div>
 
@@ -288,7 +294,7 @@
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold gradient-text mb-4">Portfolio</h2>
-                <p class="text-gray-600">Beberapa project yang telah dikembangkan</p>
+                <p class="text-gray-600"></p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -429,7 +435,7 @@
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold gradient-text mb-4 pb-1">Blog & Artikel</h2>
-                <p class="text-gray-600">Tulisan dan pemikiran seputar teknologi</p>
+                <p class="text-gray-600"></p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -494,25 +500,25 @@
     <section id="contact" class="py-20 bg-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-12">
-                <p class="text-purple-600 font-semibold mb-2">Kontak</p>
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-8">Hubungi Saya</h2>
+                <p class="text-purple-600 font-semibold mb-2"></p>
+                <h2 class="text-4xl font-bold gradient-text mb-4 pb-1">Hubungi Saya</h2>
             </div>
 
             <div class="max-w-2xl mx-auto text-center">
                 <div class="flex justify-center gap-4 md:gap-6 flex-wrap mb-8">
-                    <a href="tel:+6281234567890" class="flex items-center justify-center w-14 h-14 rounded-full contact-btn hover:scale-110 transition-all duration-300">
+                    <a href="+62 859-3440-8764" class="flex items-center justify-center w-14 h-14 rounded-full contact-btn hover:scale-110 transition-all duration-300">
                         <i class="fas fa-phone text-xl"></i>
                     </a>
-                    <a href="mailto:fatihnurrosyid@gmail.com" class="flex items-center justify-center w-14 h-14 rounded-full contact-btn hover:scale-110 transition-all duration-300">
+                    <a href="mailto:youremail@example.com" class="flex items-center justify-center w-14 h-14 rounded-full contact-btn hover:scale-110 transition-all duration-300">
                         <i class="fas fa-envelope text-xl"></i>
                     </a>
-                    <a href="#" class="flex items-center justify-center w-14 h-14 rounded-full contact-btn hover:scale-110 transition-all duration-300">
+                    <a href="https://www.linkedin.com/in/muhammadfatihnurrosyid" class="flex items-center justify-center w-14 h-14 rounded-full contact-btn hover:scale-110 transition-all duration-300">
                         <i class="fab fa-linkedin text-xl"></i>
                     </a>
                     <a href="#" class="flex items-center justify-center w-14 h-14 rounded-full contact-btn hover:scale-110 transition-all duration-300">
                         <i class="fab fa-github text-xl"></i>
                     </a>
-                    <a href="#" class="flex items-center justify-center w-14 h-14 rounded-full contact-btn hover:scale-110 transition-all duration-300">
+                    <a href="https://www.instagram.com/fatnr_16/" class="flex items-center justify-center w-14 h-14 rounded-full contact-btn hover:scale-110 transition-all duration-300">
                         <i class="fab fa-instagram text-xl"></i>
                     </a>
                     <a href="#" class="flex items-center justify-center w-14 h-14 rounded-full contact-btn hover:scale-110 transition-all duration-300">
@@ -531,18 +537,9 @@
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-3 gap-8 mb-8">
                 <div>
-                    <h3 class="text-2xl font-bold gradient-text mb-4">YourName</h3>
-                    <p class="text-gray-400">Full Stack Developer dengan passion dalam menciptakan solusi teknologi yang inovatif.</p>
-                </div>
-                
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
-                    <div class="space-y-2">
-                        <a href="#home" class="block text-gray-400 hover:text-white transition">Beranda</a>
-                        <a href="#about" class="block text-gray-400 hover:text-white transition">Tentang</a>
-                        <a href="#portfolio" class="block text-gray-400 hover:text-white transition">Portfolio</a>
-                        <a href="#contact" class="block text-gray-400 hover:text-white transition">Kontak</a>
-                    </div>
+                    <h3 class="text-lg font-semibold mb-4">Muhammad Fatih Nur Rosyid</h3>
+                    <p class="text-gray-400">fatihnurrosyid@gmail.com</p>
+                    <p class="text-gray-400">Yogyakarta</p>
                 </div>
 
                 <div>
@@ -554,10 +551,24 @@
                         <a href="#" class="block text-gray-400 hover:text-white transition">Technology</a>
                     </div>
                 </div>
+                                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="#home" class="block text-gray-400 hover:text-white transition">Beranda</a>
+                        <a href="#about" class="block text-gray-400 hover:text-white transition">Tentang</a>
+                        <a href="#portfolio" class="block text-gray-400 hover:text-white transition">Portfolio</a>
+                        <a href="#education" class="block text-gray-400 hover:text-white transition">Education</a>
+                        <a href="#blog" class="block text-gray-400 hover:text-white transition">Blog</a>
+                        <a href="#contact" class="block text-gray-400 hover:text-white transition">Kontak</a>
+                    </div>
+                </div>
+
+
             </div>
 
-            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
-                <p>&copy; 2025 muhammadfatih. Made with</i> using <a href="https://tailwindcss.com" class="text-purple-400 hover:text-purple-300">Tailwind CSS</a></p>
+            <div class="border-t border-gray-700 pt-8 text-center text-gray-400 text-sm">
+                <p>Created by <span class="name-foot">Muhammad Fatih</span>, Built with</i> using <a href="https://tailwindcss.com" class="text-blue-500">Tailwind CSS</a></p>
             </div>
         </div>
     </footer>
@@ -606,5 +617,4 @@
         });
     </script>
 </body>
-
 </html>
